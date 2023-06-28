@@ -1,0 +1,32 @@
+.top {
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(240, 240, 240);
+}
+
+.bottem {
+    border-top: 2px solid black;
+    // border-bottom: 2px solid black;
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        
+        li {
+            display: inline;
+            margin: 20px;
+        }
+
+        li:hover {
+            cursor: pointer;
+            color: cyan;
+            transition: 0.3s;
+            
+        }
+    }
+}

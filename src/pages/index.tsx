@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import Nav from "components/customer/nav";
+
 export default function Home() {
 
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       </Head>
       
       <main>
-        
+        <Nav />
       </main>
     </>
   );
