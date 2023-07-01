@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    margin: 100px;
+
+    .container {
+        display: flex;        
+        width: 80vw;
+        
+        .code {
+            width: 700px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: cyan;
+        }
+    }
+}

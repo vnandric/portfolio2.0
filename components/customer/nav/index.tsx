@@ -1,7 +1,9 @@
 import styles from './index.module.scss';
-import Image from 'next/image';
 
+import Image from 'next/image';
 import Pfp from '../../../src/media/pfp.jpg';
+
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Nav = () => {
     return (
@@ -9,23 +11,22 @@ const Nav = () => {
             <div className={styles.nav}>
                 <div className={styles.container}>
                     <div className={styles.left}>
-                        <h1>Valentino</h1>
+                        <h1>Valentino Andric</h1>
                     </div>
 
                     <div className={styles.middle}>
                         <ul>
-                            <li>Home</li>
-                            <li>Services</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
 
                     <div className={styles.right}>
                         
-                        <Image src={Pfp} alt='pfp' className={styles.socialmedia}/>
-                        <Image src={Pfp} alt='pfp' className={styles.socialmedia}/>
-                        <Image src={Pfp} alt='pfp' className={styles.socialmedia}/>
+                        <a href="https://www.linkedin.com/in/valentino-andric-04a4bb267/" target='_blank'><AiFillLinkedin className={styles.socialmedia}/></a>
+                        <a href="https://github.com/vnandric" target='_blank'><AiFillGithub className={styles.socialmedia}/></a>
                     </div>
                 </div>                
             </div>
