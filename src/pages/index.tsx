@@ -3,6 +3,7 @@ import Head from "next/head";
 import Nav from "components/customer/nav";
 import About from "components/customer/about";
 import Projects from "components/customer/projects";
+import Form from "components/customer/form";
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Nav />
         <About />
         <Projects />
+        <Form />
       </main>
     </>
   );
