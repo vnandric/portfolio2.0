@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import Nav from "components/customer/nav";
 import About from "components/customer/about";
+import Projects from "components/customer/projects";
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Nav />
         <About />
+        <Projects />
       </main>
     </>
   );

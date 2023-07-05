@@ -9,15 +9,23 @@
     .container {
         display: flex;        
         width: 80vw;
+        align-items: center;
         
         .code {
             width: 700px;
             height: auto;
         }
 
-        h1 {
-            font-size: 2rem;
-            color: cyan;
-        }
+        div {
+            h1 {
+                font-size: 2rem;
+                color: cyan;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: white;
+            }
+        }        
     }
 }
