@@ -1,9 +1,10 @@
 import Head from "next/head";
 
-import Nav from "components/customer/nav";
-import About from "components/customer/about";
-import Projects from "components/customer/projects";
-import Form from "components/customer/form";
+import Nav from "components/nav";
+import About from "components/about";
+// import Projects from "components/projects";
+import Skills from "components/skills";
+import Form from "components/form";
 
 export default function Home() {
 
@@ -18,7 +19,8 @@ export default function Home() {
       <main>
         <Nav />
         <About />
-        <Projects />
+        {/* <Projects /> */}
+        <Skills />
         <Form />
       </main>
     </>

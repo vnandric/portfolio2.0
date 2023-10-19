@@ -1,0 +1,57 @@
+.container {
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 200px;
+
+    
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .table {
+
+            h1 {  
+                font-size: 2rem;
+                color: cyan;
+                margin-bottom: 20px;
+            }
+
+            table {
+                margin-right: 100px;
+    
+                
+                
+                tr {
+        
+                    td {
+                        font-size: 1.2rem;
+                        color: white;
+                        padding: 0 10px 0 10px;
+                    }
+                }
+            }
+        }        
+    
+        .image {
+            height: 300px;
+            width: auto;
+        }
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+
+        p {
+            font-size: 1.2rem;
+            color: white;
+            margin-top: 20px;
+            width: 1000px;
+        }
+    }    
+}

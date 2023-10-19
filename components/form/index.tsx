@@ -1,6 +1,6 @@
 import styles from "./index.module.scss";
 
-import { api } from "../../../src/utils/api";
+import { api } from "../../src/utils/api";
 import { useState } from "react";
 import Alert from "../alert/Alert";
 

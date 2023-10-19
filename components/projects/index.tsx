@@ -6,9 +6,9 @@ import 'react-slideshow-image/dist/styles.css'
 
 import Image from 'next/image'
 
-import Img1 from '../../../src/media/image1.png'
-import Img2 from '../../../src/media/image2.jpg'
-import Img3 from '../../../src/media/image3.jpg'
+import Img1 from '../../src/media/image1.png'
+import Img2 from '../../src/media/image2.jpg'
+import Img3 from '../../src/media/image3.jpg'
 
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from 'react-icons/ai'
 

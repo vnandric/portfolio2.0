@@ -1,7 +1,7 @@
 import styles from './index.module.scss';
 
 import Image from 'next/image';
-import Pfp from '../../../src/media/pfp.jpg';
+import Pfp from '../../src/media/pfp.jpg';
 
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 

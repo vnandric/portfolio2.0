@@ -3,7 +3,7 @@ import styles from './index.module.scss';
 
 import Image from 'next/image';
 
-import Code from '../../../src/media/pngwing.com.png';
+import Code from '../../src/media/pngwing.com.png';
 
 const About = () => {
     return (
