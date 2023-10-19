@@ -11,7 +11,7 @@ import ProgressBar from '@ramonak/react-progress-bar';
 const Skills = () => {
     return (
         <>
-            <div className={styles.container}>                
+            <div className={styles.container} id='skills'>                
                 <div className={styles.main}>
                     <div className={styles.table}>     
                         <h1>Skills</h1>          

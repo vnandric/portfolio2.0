@@ -4,7 +4,8 @@ import Nav from "components/nav";
 import About from "components/about";
 // import Projects from "components/projects";
 import Skills from "components/skills";
-import Form from "components/form";
+// import Form from "components/form";
+import Footer from "components/footer";
 
 export default function Home() {
 
@@ -21,7 +22,8 @@ export default function Home() {
         <About />
         {/* <Projects /> */}
         <Skills />
-        <Form />
+        {/* <Form /> */}
+        <Footer />
       </main>
     </>
   );

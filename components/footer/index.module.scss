@@ -1,0 +1,43 @@
+.container {
+    background-color: #090909;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+
+        .left {
+            width: 700px;
+            
+            h1 {
+                color: cyan;
+                font-size: 1.8rem;
+                // margin-left: 10px;
+            }
+
+            p {
+                color: white;
+                font-size: 1.2rem;
+                // text-align: center;
+            }
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .socialmedia {
+                height: 35px;
+                width: auto;
+                margin: 10px;
+                color: cyan;
+            }
+        }
+    }
+}

@@ -17,8 +17,8 @@ const Nav = () => {
                     <div className={styles.middle}>
                         <ul>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#footer">Contact</a></li>
                         </ul>
                     </div>
 
