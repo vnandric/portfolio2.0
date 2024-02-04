@@ -2,10 +2,11 @@ import Head from "next/head";
 
 import Nav from "components/nav";
 import About from "components/about";
-// import Projects from "components/projects";
-import Skills from "components/skills";
-// import Form from "components/form";
 import Footer from "components/footer";
+
+const Skills = dynamic(() => import("components/skills"), { ssr: false });
+
+import dynamic from "next/dynamic";
 
 export default function Home() {
 
@@ -20,9 +21,7 @@ export default function Home() {
       <main>
         <Nav />
         <About />
-        {/* <Projects /> */}
         <Skills />
-        {/* <Form /> */}
         <Footer />
       </main>
     </>
